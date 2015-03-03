@@ -1,0 +1,26 @@
+@import bourbon
+@import mixins_and_vars
+
+html
+  overflow: hidden
+  height: 100%
+  body
+    height: 100%
+    width: 100%
+    margin: 0
+    padding: 0
+    +background-image(radial-gradient(#404041 0%, white 90%))
+
+  main
+    min-height: 480px
+    height: 100%
+    width: 100%
+    position: relative
+    @media screen and (orientation: landscape)
+      min-height: 320px
+      margin-left: 22px 
+    
+
+
+
+
